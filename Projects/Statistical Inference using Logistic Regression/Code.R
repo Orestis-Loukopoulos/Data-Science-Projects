@@ -1,4 +1,4 @@
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/MASTER/MSc Business Analytics/Semester 2/Statistics for BA 2/Project 1")
+#Load packages
 library("readxl")
 library('car')
 library(aod)
@@ -132,16 +132,5 @@ plot(ds$nr.employed , resid(model4, type = 'deviance'), ylab = 'Residuals (Devia
 dev.off()
 
 
-
-# Center our data in order to be more meaningful when interpreting the intercept 
-ds_center <- as.data.frame(scale(ds_num, center = TRUE, scale= F )) 
-ds_center <- cbind(ds_center, ds_factor)
-View(ds_center)
-
-model4_center <- glm(formula = SUBSCRIBED ~ default + contact + month + duration + 
-                campaign + poutcome + nr.employed, 
-              family = binomial(link = "logit"), data = ds_center)
-
-summary(model4_center) #To interpret the intercept
 summary(model4) #To interpret the rest covariates
 
