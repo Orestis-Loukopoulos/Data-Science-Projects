@@ -2,7 +2,6 @@
 #Classification#
 ################
 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/MASTER/MSc Business Analytics/Semester 2/Statistics for BA 2/Project 2")
 library("readxl")
 library('car')
 library(aod)
@@ -302,7 +301,6 @@ f1_RF_val
 #Clustering#
 ############
 
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/MASTER/MSc Business Analytics/Semester 2/Statistics for BA 2/Project 2")
 library("readxl")
 library(cluster)
 library(factoextra)
