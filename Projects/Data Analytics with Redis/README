@@ -37,6 +37,3 @@ This project involves performing an analysis on data related to seller actions u
 
 1.7 Does it make any sense to keep sending e-mails with recommendations to sellers? Does this strategy really work? How would you describe this in terms a business person would understand?
    - Tip: You may use the findings of the previous questions or calculate anything else you want to justify your answer.
-
-1.8 (Optional Task) Repeat the previous subtasks using any type of relational or non-relational database. Compare the complexity of the solutions. Then, benchmark the query execution time for the dataset you have. Finally, increase the number of entries to 1 billion rows (create your own dummy entries) and perform the benchmark again.
-
