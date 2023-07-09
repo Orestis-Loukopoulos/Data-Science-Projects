@@ -8,7 +8,7 @@ After all of the above transformations we were ready to implement the Token Bloc
 
 ## Task B
 
-In this task we had to compute all the possible comparisons, that had to be made in order to resolve the issue of duplicates within the blocks. In order to tackle that we iterate through the keys – tokens of each block. For every block, we calculated the number of entities that contains. We then apply the following formula in order to calculate the number of pairwise comparisons for each block: (n¦2) with n being equal to the number of entities each block contains. We append the result of this formula to a list for every block. By summarizing all these numbers, we calculated the total number of comparisons which was equal to approximately 2,8 Billions (2795570518).
+In this task we had to compute all the possible comparisons, that had to be made in order to resolve the issue of duplicates within the blocks. In order to tackle that we iterate through the keys – tokens of each block. For every block, we calculated the number of entities that contains. We then apply the following formula in order to calculate the number of pairwise comparisons for each block: (n¦2) with n being equal to the number of entities each block contains. We append the result of this formula to a list for every block. By summarizing all these numbers, we calculated the total number of comparisons which was equal to approximately 2,8 Billions (2,795,570,518).
 
 ## Task C
 
