@@ -1,0 +1,4 @@
+cat 'authors.csv' | wc -l
+cat 'authors.csv' | grep -E ",CIKM,|,KDD,|,ICWSM,|,WWW,|,IEEE BigData," > file1.csv
+awk -F, '$1>2015' file1.csv | wc -l
+awk -F, '$1>2015' file1.csv > file2.csv
