@@ -1,7 +1,7 @@
 # pip install mysql-connector-python
 import mysql.connector
 conn = mysql.connector.connect(
-    host='localhost', user='root', passwd='STam1996!', database='e_properties')
+    host='localhost', user='root', passwd='******', database='e_properties')
 myCursor = conn.cursor()
 
 
