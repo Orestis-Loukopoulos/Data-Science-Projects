@@ -5,16 +5,19 @@ E-Properties estimates a set of properties managed by its appraisers. Each appra
 
 ## Tasks
 
-1. **Entity-Relationship Model**
+1. **Create a database**
+    - Use MySQL to create a database, write and execute SQL queries.
+
+2. **Entity-Relationship Model**
    - Describe your application using the entity-relationship model.
    - Use any program of your choice to design the diagram.
 
-2. **Relational Model and SQL Tables**
+3. **Relational Model and SQL Tables**
    - Translate your design to the relational model.
    - Create tables, attributes, and constraints in SQL Server using SQL (`CREATE TABLE`).
    - Insert rows into the tables using `INSERT INTO` statements.
 
-3. **SQL Queries**
+4. **SQL Queries**
    - Write and execute SQL queries for the following tasks:
      * a) Show the code and address of properties that belong to an area with an average income greater than €40,000 and have been evaluated between December 24th, 2020, and December 31st, 2020.
      * b) For each appraiser, display the count of evaluations they have performed in 2020.
@@ -26,6 +29,6 @@ E-Properties estimates a set of properties managed by its appraisers. Each appra
      * h) For each area code, show the change in the average evaluation value per sqm between 2020 and 2019.
      * i) For each area code in 2020, display the count of evaluations for that area as a percentage of the total count of evaluations in 2020 (one column), and the population of the area as a percentage of the total population of all areas.
 
-4. **Programming Task**
+5. **Programming Task**
    - Using any programming language of your choice, connect to the database and implement query (i) from above without using GROUP BY in the SQL statement, meaning you can only use SELECT...FROM...WHERE.
 
